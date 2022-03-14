@@ -16,6 +16,12 @@
     margin-right: auto;
     width: 10%;
   }
+  .basil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
   .logo {
     display: block;
     margin-left: auto;
