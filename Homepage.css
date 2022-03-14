@@ -1,0 +1,21 @@
+nav {
+    font-family: 'Special Elite', cursive;
+    position: relative;
+    padding: 30px 0px 0px 180px;
+    color: white;
+  }
+  
+  nav.navbar-default {
+    background: -webkit-linear-gradient(black, transparent 100%), transparent;
+    border-color: transparent;
+  }
+  
+    // Bootstrap overrides
+    .nav.navbar-nav.navbar-right li a {
+      color: #fff;
+      background-color: transparent;
+    }
+    .dropdown-menu {
+        background-color: transparent;
+    }    
+    
