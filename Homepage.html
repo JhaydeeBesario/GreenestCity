@@ -9,73 +9,32 @@
     </head>
     
     <style>
-     #grid1 {
-         height: 600px;
-         background-image: linear-gradient(to bottom, rgb(55, 109, 55),white)
-     }
-     .parent {
-        position: relative;
-        top: 0;
-        left: 0;
-      }
-      .gradient {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        border: 0px;
-      }
-      .hand {
-        position: relative;
-        top: 0;
-        left: 0;
-        border: 0px;
-      }
-
+     .gradient
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1519px;
+    }
+    .hand
+    {
+      position: absolute;
+      text-align: center;
+      top: -110px;
+      left: 0px;
+      right: 0px;
+    }
     </style>
 
     <body>
-        <div class="parent">
-     <div id="grid1" class="gradient"></div>
-    <img src="images/hand.png" class="hand">
-   
-</div>
-
-
-
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="hidden">
-                <a class="page-scroll" href="#page-top"></a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#about">About</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#rules">Programs</a>
-              </li>
-              <li>
-                <a class="page-scroll" href="#where">Contact</a>
-              </li>
-              <li>
-                <img src="images/Logo.png">
-              </li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Get Involved<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <% if current_user %> <!-- facebook login -->
-                    <li><%= link_to current_user.name, members_profile_path %></li>
-                    <li><%= link_to "Sign Out", sign_out_path, method: :delete %></li>
-                  <% else %>
-                    <li><%= link_to "auth/facebook" do %><%= "Sign In" %><% end %></li>
-                  <% end %>
-                </ul>
-              </li>
-            </ul>
+        <div style="position: relative; left: 0; top: 0;">
+            <img src="images/gradient header.png" class="gradient">
+            <img src="images/hand.png" class="hand">
           </div>
 
+
+
+
     </body>
-
-
-
 
 </html>
