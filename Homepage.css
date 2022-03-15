@@ -4,6 +4,35 @@
     margin-right: auto;
     width: 50%;
   }
+  .card-columns {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  .card-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .card-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+
+  }
+  .card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
   .hero {
     display: block;
     margin-left: auto;
