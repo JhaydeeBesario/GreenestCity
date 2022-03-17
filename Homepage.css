@@ -7,7 +7,7 @@
   .nav-logo{
     width: 310px;
     height: 160px;
-    top: 50;
+    top: -5px;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,7 @@ bottom: -5px;
 .nav a:hover {
 color: #ffe3a0;
 background-color: transparent;
+text-decoration: none;
 } 
   .justify-content-center {
     overflow: hidden;
