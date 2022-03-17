@@ -4,6 +4,63 @@
     margin-right: auto;
     width: 50%;
   }
+  .nav-logo{
+    width: 310px;
+    height: 160px;
+    top: 50;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  }
+
+.nav-search{
+position: relative;
+bottom: -5px;
+  }
+
+.nav-item{
+ position: relative;
+ bottom: -10px;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.nav a {
+ color: white;
+ padding: 30px 5px;
+ padding-bottom: 0%;
+ font-size: 24px;
+ font-style: bold;
+ font-family: Inter, Helvetica, sans-serif;
+ text-decoration: none;
+ text-align: center;
+ margin: 17px;
+ text-shadow: 4px 4px 4px black;
+ bottom: -48px;
+}
+/* change color on hover*/
+.nav a:hover {
+color: #ffe3a0;
+background-color: transparent;
+} 
+  .justify-content-center {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1000;//add z-index
+    
+    }
+  .gradient {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: -150px;
+  }
   .card-columns {
     display: block;
     margin-left: auto;
